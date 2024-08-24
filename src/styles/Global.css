@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+body {
+	animation: gradient 15s ease infinite;
+	background: linear-gradient(-45deg, #632bac, #aa3e79, #34a186, #e6d53d);
+	background-size: 400% 400%;
+	height: 100vh;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-family: "Roboto";
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a, p, li, h1, h2, h3 {
+	color: var(--standar-color-text) !important;
+	text-decoration: none;
+}
+
+.dark-theme {
+	background: linear-gradient(-45deg, #0D1526, #192C3A, #444c7e, #14151a);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+  height: 100vh;
+}
+
+.big-text {
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	font-size: 58px;
+	line-height: 72px;
+	letter-spacing: 20px;
+	margin-bottom: 60px;
+}
+
+.nav-text {
+	font-size: 13px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 500;
+	padding: 5px 20px !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
