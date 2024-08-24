@@ -1,5 +1,7 @@
 :root {
     --curriculum-color: #1f4766;
-    --dark: #404040;
+    --dark-mate: #404040;
     --standar-color-text: #f0f0f0;
+    --gradient-light: linear-gradient(-45deg, #632bac, #aa3e79, #34a186, #e6d53d);
+    --gradient-dark: linear-gradient(-45deg, #0D1526, #192C3A, #444c7e, #14151a);
 }
