@@ -11,14 +11,28 @@ body {
 	letter-spacing: 2px;
 	font-weight: 400;
 	font-family: "Roboto";
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 }
 
-a, p, li, h1, h2, h3 {
+a, p, span, li, h1, h2, h3 {
 	color: var(--standar-color-text) !important;
 	text-decoration: none;
+}
+
+h1 {
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	font-size: 58px;
+	line-height: 72px;
+	letter-spacing: 20px;
+	margin-bottom: 20px;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
 }
 
 .dark-theme {
@@ -29,21 +43,16 @@ a, p, li, h1, h2, h3 {
   height: 100vh;
 }
 
-.big-text {
-	font-family: "Montserrat";
-	text-transform: uppercase;
-	font-size: 58px;
-	line-height: 72px;
-	letter-spacing: 20px;
-	margin-bottom: 60px;
-}
-
 .nav-text {
 	font-size: 13px;
 	text-transform: uppercase;
 	cursor: pointer;
 	font-weight: 500;
 	padding: 5px 20px !important;
+}
+
+.bg-dark-mate {
+	background-color: var(--dark-mate);
 }
 
 @keyframes gradient {

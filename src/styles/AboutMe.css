@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+
+#aboutMe {
+    /* background-image: url("../assets/img/background_aboutMe.jpg");
+    background-size: cover;
+    background-position: center; */
+    height: 400px;
+}
+
+/* #aboutMe .container-opacity {
+    opacity: 0.4;
+    background-color: var(--dark-mate);
+} */
+
+/* #aboutMe p, #aboutMe h1, #aboutme span {
+    opacity: 1 !important;
+} */
+
+#aboutMe span {
+    font-size: 30px;
+}
+
+.orbitron {
+    display: inline-block;
+    position: relative;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.orbitron::before,
+.orbitron::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+.orbitron::before {
+    left: -65%;
+}
+
+.orbitron::after {
+    right: -63%;
+}
+
+.orbitron.black-orb::before,
+.orbitron.black-orb::after {
+    background-color: black;
+}
