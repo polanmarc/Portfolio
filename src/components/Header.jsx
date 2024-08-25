@@ -21,10 +21,25 @@ function Header() {
     useEffect(() => {
         if (isDarkTheme) {
             document.body.classList.add('dark-theme');
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const firstDiv = card.querySelector('div');
+                if (firstDiv) {
+                    firstDiv.classList.add('front-dark');
+                }
+            });
         } else {
             document.body.classList.remove('dark-theme');
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const firstDiv = card.querySelector('div');
+                if (firstDiv) {
+                    firstDiv.classList.remove('front-dark');
+                }
+            });
         }
     }, [isDarkTheme]);
+    
 
     // Función para cambiar el tema y guardar en el localStorage
     function changeTheme() {

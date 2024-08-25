@@ -1,0 +1,34 @@
+/* Contenedor de la línea */
+.line-container {
+    position: relative;
+    height: 480px;
+    margin: 80px 180px 0px 0px;
+}
+
+/* Línea vertical */
+.line {
+    height: 100%;
+    width: 5px;
+    background-color: var(--standar-color-text);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Puntos de la línea */
+.dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: var(--standar-color-text);
+    border-radius: 50%;
+}

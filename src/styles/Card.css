@@ -1,4 +1,6 @@
-@property --rotate {
+/* --- MAGIC CARD --- */
+
+/* @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
@@ -6,8 +8,8 @@
 
 .custom-card {
     background: #191c29;
-    width: 250px;
-    height: 350px;
+    width: 450px;
+    height: 200px;
     padding: 3px;
     position: relative;
     border-radius: 6px;
@@ -18,7 +20,7 @@
     font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
-    margin: 20px;
+    margin-bottom: 40px;
 }
 
 .custom-card:hover {
@@ -63,9 +65,77 @@
 
 @keyframes spin {
     0% {
-        --rotate: 132deg; /* Ajusta el valor inicial de rotación */
+        --rotate: 132deg;
     }
     100% {
-        --rotate: 360deg; /* Ajusta el valor final de rotación */
+        --rotate: 360deg;
     }
+} */
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinear las tarjetas al inicio */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin-left: 30px;
+}
+
+.labelCard {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    display: block;
+    width: 500px;
+    height: 200px;
+    cursor: pointer;
+    position: relative; /* Eliminar posicionamiento absoluto */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+    z-index: 20;
+    border: none;
+}
+
+.card div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--standar-color-text);
+    text-align: center;
+    line-height: 200px;
+    backface-visibility: hidden;
+    border-radius: 5px;
+}
+
+.card .front-dark {
+    background: linear-gradient(-45deg, #4e5d77, #7b8d9a, #b3c4d1, #e3e9f0);
+}
+
+.card .back {
+    background: var(--dark-mate);
+    color: var(--standar-color-text);
+    transform: rotateX(180deg);
+}
+
+label:hover .card {
+    transform: rotateX(20deg);
+    box-shadow: 0 20px 20px var(--shadow-black);
+}
+
+input {
+    display: none;
+}
+
+input:checked + .card {
+    transform: rotateX(180deg);
+}
+
+label:hover input:checked + .card {
+    transform: rotateX(160deg);
+    box-shadow: 0 20px 20px rgba(255, 255, 255, .2);
 }
