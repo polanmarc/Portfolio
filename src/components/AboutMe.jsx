@@ -6,8 +6,8 @@ function AboutMe() {
     const { t } = useTranslation();
 
     return (
-        <div className="d-flex justify-content-center pt-5">
-            <div id="aboutMe" className="d-flex flex-column text-center align-self-center w-100 p-3 rounded align-items-center">
+        <div className="d-flex justify-content-center">
+            <div id="aboutMe" className="d-flex flex-column pt-5 justify-content-center text-center align-self-center w-100 p-3 align-items-center">
                 <div className="container-opacity">
                     <h1>Marc Polán Escrich</h1>
                     <span className="orbitron">\\\///</span>

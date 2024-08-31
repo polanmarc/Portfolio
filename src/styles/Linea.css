@@ -1,11 +1,9 @@
-/* Contenedor de la línea */
 .line-container {
     position: relative;
     height: 480px;
     margin: 80px 180px 0px 0px;
 }
 
-/* Línea vertical */
 .line {
     height: 100%;
     width: 5px;
@@ -15,7 +13,6 @@
     transform: translateX(-50%);
 }
 
-/* Puntos de la línea */
 .dots {
     display: flex;
     flex-direction: column;

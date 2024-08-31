@@ -2,9 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
 
 body {
-	animation: gradient 15s ease infinite;
-	background: var(--gradient-light);
-	background-size: 400% 400%;
 	height: 100vh;
 	font-size: 14px;
 	line-height: 18px;
@@ -12,11 +9,19 @@ body {
 	font-weight: 400;
 	font-family: "Roboto";
 	max-height: 1400px !important;
-	/* overflow: hidden; */
+}
+
+.dark-body {
+	background-color: var(--dark-background);
+	color: var(--standar-color-text) !important;
+}
+
+.light-body {
+	background-color: var(--standar-color-text);
+	color: var(--dark-mate) !important;
 }
 
 a, p, span, li, h1, h2, h3 {
-	color: var(--standar-color-text) !important;
 	text-decoration: none;
 }
 
@@ -52,12 +57,30 @@ h3 {
 	height: 25px;
 }
 
-.dark-theme {
+a.nav-link {
+	color: var(--standar-color-text) !important;
+}
+
+.dark-theme-gradient {
+	background: var(--gradient-dark);
+}
+
+.light-theme-gradient {
 	background: var(--gradient-light);
+}
+
+.animation-dark-theme-gradient {
 	background: var(--gradient-dark);
 	animation: gradient 15s ease infinite;
 	background-size: 400% 400%;
-  height: 100vh;
+ 	height: 100vh;
+}
+
+.animation-light-theme-gradient {
+	background: var(--gradient-light);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+ 	height: 100vh;
 }
 
 .nav-text {
@@ -70,6 +93,45 @@ h3 {
 
 .bg-dark-mate {
 	background-color: var(--dark-mate);
+}
+
+.bg-white {
+	background-color: var(--standar-color-text);
+}
+
+.color-white {
+	color: var(--standar-color-text);
+}
+
+.color-black {
+	color: var(--dark-mate);
+}
+
+/* Lineas verticales */
+
+.lines-thing {
+	display: inline-block;
+    position: relative;
+    margin-bottom: 45px;
+    height: 2px;
+    width: 80px;
+	background-color: #fff;
+}
+
+.lines-thing::before {
+    top: -12px;
+}
+
+.lines-thing::after {
+    bottom: -12px;
+}
+
+.lines-thing::before, .lines-thing::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background-color: #fff;
 }
 
 @keyframes gradient {

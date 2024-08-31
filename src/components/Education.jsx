@@ -12,6 +12,7 @@ function Education() {
             <div className="d-flex justify-content-center flex-column text-center align-self-center w-100 p-3">
                 <h2>{t('education')}</h2>
             </div>
+            <div className="lines-thing text-center"></div>
             <div className="d-flex justify-content-center align-items-start mt-5">
                 <div className="line-container">
                     <div className="line"></div>

@@ -1,20 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron:700);
 
 #aboutMe {
-    /* background-image: url("../assets/img/background_aboutMe.jpg");
-    background-size: cover;
-    background-position: center; */
-    height: 400px;
+    color: var(--standar-color-text) !important;
+    height: calc(100vh + 137px);
 }
-
-/* #aboutMe .container-opacity {
-    opacity: 0.4;
-    background-color: var(--dark-mate);
-} */
-
-/* #aboutMe p, #aboutMe h1, #aboutme span {
-    opacity: 1 !important;
-} */
 
 #aboutMe span {
     font-size: 30px;

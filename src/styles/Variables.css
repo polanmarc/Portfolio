@@ -6,4 +6,5 @@
     /* --gradient-dark: linear-gradient(-45deg, #0D1526, #192C3A, #444c7e, #14151a); */
     --gradient-dark: linear-gradient(-45deg, #0D1526, #122838, #282e53, #14151a);
     --shadow-black: rgba(50, 50, 50, .2);
+    --dark-background: #1d1d1d;
 }
