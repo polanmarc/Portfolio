@@ -49,7 +49,15 @@ h3 {
 	font-size: 28px;
 	line-height: 35px;
 	letter-spacing: 10px;
-	margin-bottom: 10px;
+}
+
+h4 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
 }
 
 .icon {

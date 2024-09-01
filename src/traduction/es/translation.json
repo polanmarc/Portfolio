@@ -7,5 +7,14 @@
   "spanish": "Español",
   "idioma": "Idioma",
   "aboutMe-content": "Soy un programador apasionado y altamente motivado, con excelentes habilidades para el trabajo en equipo y una comunicación efectiva con las diversas partes interesadas. Me destaco por mantener una actitud de aprendizaje continua, manteniéndome siempre actualizado con las últimas tecnologías y tendencias en el campo de la programación.",
-  "education": "Educacion"
+  "education": "Educacion",
+  "tecnocampus_title": "Grado en Ingeniería Informática de Gestión y Sistemas de Información",
+  "tecnocampus_name_date" : "Universidad TecnoCampus - 2024 / Presente",
+  "tecnocampus_description" : "En el Grado en Ingeniería Informática, aprenderás a desarrollar aplicaciones web, móviles e inteligencia artificial, además de diseñar y gestionar sistemas de información, bases de datos, redes, servidores y servicios en la nube. También te formarás en gestión de proyectos y equipos. El programa incluye asignaturas básicas, obligatorias, optativas y un trabajo final de grado, todas con un enfoque práctico que se refuerza a través de laboratorios y ejercicios integrados en cada materia técnica.",
+  "DAW_title": "Grado Superior en Desarrollo de Aplicaciones Web",
+  "DAW_name_date": "I.E.S Thos i Codina - 2022 / 2024",
+  "DAW_description": "En el Grado en Ingeniería Informática, he aprendido a gestionar servidores de aplicaciones, adaptando su configuración para el despliegue eficiente de aplicaciones web. También adquirí habilidades para implantar y gestionar bases de datos, desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes y herramientas de mapeo adecuados, y crear interfaces para aplicaciones web siguiendo manuales de estilo y estándares web. Además, me formé en el despliegue y distribución de aplicaciones web en diversos entornos.",
+  "SMIX_title": "Grado Medio en Sistemas Microinformáticos y Redes",
+  "SMIX_name_date": "I.E.S Thos i Codina - 2020 / 2022",
+  "SMIX_description": "He instalado y mantenido equipos y sistemas informáticos en entornos tanto monousuario como multiusuario. Además, he gestionado la instalación y mantenimiento de aplicaciones ofimáticas y corporativas, así como de servicios de Internet. También he realizado la administración, gestión y comercialización de una pequeña empresa o taller, y he instalado y mantenido servicios de red."
 }

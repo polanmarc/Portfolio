@@ -8,8 +8,8 @@ function Education() {
     const { t } = useTranslation();
 
     return (
-        <div id="education" className="d-flex justify-content-center flex-column text-center align-self-center">
-            <div className="d-flex justify-content-center flex-column text-center align-self-center w-100 p-3">
+        <div id="education" className="d-flex py-5 justify-content-center flex-column text-center align-self-center">
+            <div className="d-flex justify-content-center flex-column text-center align-self-center w-100">
                 <h2>{t('education')}</h2>
             </div>
             <div className="lines-thing text-center"></div>
@@ -26,29 +26,42 @@ function Education() {
                     <label className="labelCard">
                         <input type="checkbox" />
                         <div className="card">
-                            <div className="front-dark">Front</div>
-                            <div className="back">Back</div>
+                            <div className="front-dark">
+                                <h4>{t('tecnocampus_title')}</h4>
+                                <p>{t('tecnocampus_name_date')}</p>
+                            </div>
+                            <div className="back">
+                                <p>{t('tecnocampus_description')}</p>
+                            </div>
                         </div>
                     </label>
                     <label className="labelCard">
                         <input type="checkbox" />
                         <div className="card">
-                            <div className="front-dark">Front</div>
-                            <div className="back">Back</div>
+                            <div className="front-dark">
+                                <h4>{t('DAW_title')}</h4>
+                                <p>{t('DAW_name_date')}</p>
+                            </div>
+                            <div className="back">
+                                <p>{t('DAW_description')}</p>
+                            </div>
                         </div>
                     </label>
                     <label className="labelCard">
                         <input type="checkbox" />
                         <div className="card">
-                            <div className="front-dark">Front</div>
-                            <div className="back">Back</div>
+                            <div className="front-dark">
+                                <h4>{t('SMIX_title')}</h4>
+                                <p>{t('SMIX_name_date')}</p>
+                            </div>
+                            <div className="back">
+                                <p>{t('SMIX_description')}</p>
+                            </div>
                         </div>
                     </label>
                 </div>
             </div>
         </div>
-
-
 
         // <div>
         //     <svg className="waves" xmlns="http://www.w3.org/2000/svg"

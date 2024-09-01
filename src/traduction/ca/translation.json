@@ -7,6 +7,14 @@
     "spanish": "Espanyol",
     "idioma": "Idioma",
     "aboutMe-content": "Soc un programador apassionat i altament motivat, amb excel·lents habilitats per al treball en equip i una comunicació efectiva amb les diverses parts interessades. Em distingeixo per mantenir una actitud de formació contínua, mantenint-me sempre al dia amb les últimes tecnologies i tendències en el camp de la programació.",
-    "education": "Educació"
-
+    "education": "Educació",
+    "tecnocampus_title": "Grau en Enginyeria Informàtica de Gestió i Sistemes d'Informació",
+    "tecnocampus_name_date": "Universitat TecnoCampus - 2024 / Present",
+    "tecnocampus_description": "En el Grau en Enginyeria Informàtica, aprendràs a desenvolupar aplicacions web, mòbils i intel·ligència artificial, a més de dissenyar i gestionar sistemes d'informació, bases de dades, xarxes, servidors i serveis al núvol. També et formaràs en la gestió de projectes i equips. El programa inclou assignatures bàsiques, obligatòries, optatives i un treball final de grau, totes amb un enfocament pràctic que es reforça a través de laboratoris i exercicis integrats en cada matèria tècnica.",
+    "DAW_title": "Grau Superior en Desenvolupament d'Aplicacions Web",
+    "DAW_name_date": "I.E.S Thos i Codina - 2022 / 2024",
+    "DAW_description": "En el Grau Superior en Desenvolupament d'Aplicacions Web, he après a gestionar servidors d'aplicacions, adaptant la seva configuració per al desplegament eficient d'aplicacions web. També vaig adquirir habilitats per implantar i gestionar bases de dades, desenvolupar aplicacions web amb accés a bases de dades utilitzant llenguatges i eines de mapeig adequats, i crear interfícies per a aplicacions web seguint manuals d'estil i estàndards web. A més, em vaig formar en el desplegament i distribució d'aplicacions web en diversos entorns.",
+    "SMIX_title": "Cicle Formatiu de Grau Mitjà en Sistemes Microinformàtics i Xarxes",
+    "SMIX_name_date": "I.E.S Thos i Codina - 2020 / 2022",
+    "SMIX_description": "He instal·lat i mantingut equips i sistemes informàtics en entorns tant monusuari com multiusuari. A més, he gestionat la instal·lació i manteniment d'aplicacions ofimàtiques i corporatives, així com de serveis d'Internet. També he realitzat l'administració, gestió i comercialització d'una petita empresa o taller, i he instal·lat i mantingut serveis de xarxa."
 }

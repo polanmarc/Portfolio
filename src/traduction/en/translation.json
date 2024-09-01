@@ -7,5 +7,14 @@
   "spanish": "Spanish",
   "idioma": "Language",
   "aboutMe-content": "I am a passionate and highly motivated programmer, with excellent teamwork skills and effective communication with various stakeholders. I stand out for maintaining a continuous learning attitude, always staying updated with the latest technologies and trends in the field of programming.",
-  "education": "Education"
+  "education": "Education",
+  "tecnocampus_title": "Bachelor's Degree in Computer Engineering for Management and Information Systems",
+  "tecnocampus_name_date": "TecnoCampus University - 2024 / Present",
+  "tecnocampus_description": "In the Bachelor's Degree in Computer Engineering, I learned to develop web and mobile applications, as well as artificial intelligence. Additionally, I gained skills in designing and managing information systems, databases, networks, servers, and cloud services. I also received training in project and team management. The program includes core, mandatory, elective courses, and a final project, all with a practical focus reinforced through labs and integrated exercises in each technical subject.",
+  "DAW_title": "Higher Degree in Web Application Development",
+  "DAW_name_date": "I.E.S Thos i Codina - 2022 / 2024",
+  "DAW_description": "In the Higher Degree in Web Application Development, I learned to manage application servers by adapting their configuration for the efficient deployment of web applications. I also gained skills in deploying and managing databases, developing web applications with database access using appropriate languages and mapping tools, and creating interfaces for web applications according to style guides and web standards. Additionally, I was trained in the deployment and distribution of web applications across various environments.",
+  "SMIX_title": "Mid Degree in Microcomputer Systems and Networks",
+  "SMIX_name_date": "I.E.S Thos i Codina - 2020 / 2022",
+  "SMIX_description": "I have installed and maintained computer systems in both single-user and multi-user environments. Additionally, I have managed the installation and maintenance of office and corporate applications, as well as Internet services. I have also handled the administration, management, and commercialization of a small business or workshop, and I have installed and maintained network services."
 }
