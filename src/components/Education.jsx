@@ -27,7 +27,7 @@ function Education() {
                         <input type="checkbox" />
                         <div className="card">
                             <div className="front-dark">
-                                <h4>{t('tecnocampus_title')}</h4>
+                                <h3>{t('tecnocampus_title')}</h3>
                                 <p>{t('tecnocampus_name_date')}</p>
                             </div>
                             <div className="back">
@@ -39,7 +39,7 @@ function Education() {
                         <input type="checkbox" />
                         <div className="card">
                             <div className="front-dark">
-                                <h4>{t('DAW_title')}</h4>
+                                <h3>{t('DAW_title')}</h3>
                                 <p>{t('DAW_name_date')}</p>
                             </div>
                             <div className="back">
@@ -51,7 +51,7 @@ function Education() {
                         <input type="checkbox" />
                         <div className="card">
                             <div className="front-dark">
-                                <h4>{t('SMIX_title')}</h4>
+                                <h3>{t('SMIX_title')}</h3>
                                 <p>{t('SMIX_name_date')}</p>
                             </div>
                             <div className="back">
